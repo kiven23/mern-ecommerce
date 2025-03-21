@@ -11,7 +11,7 @@
     "install:client": "cd client && npm install",
     "install:server": "cd server && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm install && npm run build",
+    "build": "cd client && npm install && npm run build"
   },
   "repository": {
     "type": "git",
