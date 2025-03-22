@@ -27,8 +27,9 @@ exports.s3Upload = async (image) => {
 
     // Handle response
     if (response.data && response.data.url) {
-      imageUrl = response.data.url;
-      imageKey = response.data.url; // or any key logic you like
+      console.log(response.data )
+      imageUrl = response.data.imageUrl;
+      imageKey = response.data.imageKey; // or any key logic you like
     }
 
     return { imageUrl, imageKey };
