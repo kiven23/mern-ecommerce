@@ -85,7 +85,7 @@ exports.localUpload = async (image) => {
     let imageKey = '';
      
     if (image) {
-      const uploadsDir = '/config/public';
+      const uploadsDir = '../config/public';
       
       // Auto-create uploads folder kung wala pa
       if (!fs.existsSync(uploadsDir)) {
