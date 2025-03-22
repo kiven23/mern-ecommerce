@@ -1,3 +1,4 @@
+ 
 {
   "version": 2,
   "builds": [
@@ -8,12 +9,13 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/"
-    },
-     {
       "src": "/public/(.*)",
       "dest": "/config/public/$1"
     },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
   ]
 }
+
