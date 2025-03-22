@@ -10,37 +10,34 @@ exports.s3Upload = async (image) => {
       console.warn('No image provided');
       return { imageUrl, imageKey };
     }
-
+    console.log('dito1')
     // Prepare form-data
     const formData = new FormData();
     formData.append('file', image.buffer, {
       filename: image.originalname,
       contentType: image.mimetype,
     });
-
+    console.log('dito2')
     // Upload to your backend acting as S3 clone
     const response = await axios.post(
       'https://colossal-sun-alpaca.glitch.me/upload',
       formData,
       { headers: formData.getHeaders() }
     );
-
+    console.log(response.data)
     // Handle response
-    if (response.data && response.data.url) {
-      console.log(response.data )
+    if (response.data) {
+      console.log(response.data)
       imageUrl = response.data.imageUrl;
       imageKey = response.data.imageKey; // or any key logic you like
     }
-
+    console.log('dito4')
     return { imageUrl, imageKey };
   } catch (error) {
     console.error('Upload Error:', error.message);
     return { imageUrl: '', imageKey: '' };
   }
 };
-
-
-
 // const AWS = require('aws-sdk');
 
 // const keys = require('../config/keys');
