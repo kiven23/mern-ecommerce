@@ -85,7 +85,7 @@ exports.localUpload = async (image) => {
     let imageKey = '';
      
     if (image) {
-      const uploadsDir = '../config/public';
+      const uploadsDir = '/var/task/server/utils/';
       
       // Auto-create uploads folder kung wala pa
       if (!fs.existsSync(uploadsDir)) {
@@ -99,7 +99,7 @@ exports.localUpload = async (image) => {
       fs.writeFileSync(filePath, image.buffer);
 
       // Sample public URL kung iseserve mo via frontend
-      imageUrl = `/public/${fileName}`;
+      imageUrl = `/${fileName}`;
       imageKey = fileName;
     }
     console.log(imageUrl)
