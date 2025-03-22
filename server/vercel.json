@@ -11,9 +11,9 @@
       "src": "/(.*)",
       "dest": "/"
     },
-      {
-      "src": "/(.*)",     
+     {
+      "src": "/public/(.*)",
       "dest": "/config/public/$1"
-    }
+    },
   ]
 }
