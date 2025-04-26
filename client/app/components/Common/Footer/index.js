@@ -49,14 +49,14 @@ const Footer = () => {
               <ul>{footerLinks}</ul>
             </div>
           </div>
-          <div className='footer-block'>
+          {/* <div className='footer-block'>
             <div className='block-title'>
               <h3 className='text-uppercase'>Links</h3>
             </div>
             <div className='block-content'>
               <ul>{footerLinks}</ul>
             </div>
-          </div>
+          </div> */}
           <div className='footer-block'>
             <div className='block-title'>
               <h3 className='text-uppercase'>Newsletter</h3>
@@ -78,7 +78,7 @@ const Footer = () => {
               <span className='instagram-icon' />
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href='/#pinterest' rel='noreferrer noopener' target='_blank'>
               <span className='pinterest-icon' />
             </a>
@@ -87,7 +87,7 @@ const Footer = () => {
             <a href='/#twitter' rel='noreferrer noopener' target='_blank'>
               <span className='twitter-icon' />
             </a>
-          </li>
+          </li> */}
         </ul>
       </Container>
     </footer>
