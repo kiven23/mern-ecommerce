@@ -141,11 +141,11 @@ class Navigation extends React.PureComponent {
             <Row>
               <Col md='4' className='text-center d-none d-md-block'>
                 <i className='fa fa-truck' />
-                <span>Shipping Via LBC :  <img src="/public/images/social-icons/lbc.png" width="50" height="50" /></span>
+                <span>Shipping Via LBC :  <img src="/images/social-icons/lbc.png" width="50" height="50" /></span>
               </Col>
               <Col md='4' className='text-center d-none d-md-block'>
                 <i className='fa fa-credit-card' />
-                <span>Payment Methods: <img src="/public/images/social-icons/cod.png" width="50" height="50" /> <img src="/public/images/social-icons/gcash2.png" width="50" height="30" /> <img src="/public/images/social-icons/PayMaya_Logo.png" width="50" height="30" /></span>
+                <span>Payment Methods: <img src="/images/social-icons/cod.png" width="50" height="50" /> <img src="/images/social-icons/gcash2.png" width="50" height="30" /> <img src="/images/social-icons/PayMaya_Logo.png" width="50" height="30" /></span>
               </Col >
               <Col md='4' className='text-center d-none d-md-block'>
                 <i className='fa fa-phone' />
