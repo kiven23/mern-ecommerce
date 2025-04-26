@@ -95,7 +95,7 @@ class Navigation extends React.PureComponent {
               </Row>
               <Row>
                 <Col>
-                  <span className='price'>${suggestion.price}</span>
+                  <span className='price'>₱{suggestion.price}</span>
                 </Col>
               </Row>
             </Container>
@@ -135,29 +135,29 @@ class Navigation extends React.PureComponent {
     };
 
     return (
-      <header className='header fixed-mobile-header'>
-        <div className='header-info'>
+      <header className='header fixed-mobile-header'  >
+        <div className='header-info' >
           <Container>
             <Row>
               <Col md='4' className='text-center d-none d-md-block'>
                 <i className='fa fa-truck' />
-                <span>Free Shipping</span>
+                <span>Shipping Via LBC :  <img src="/public/images/social-icons/lbc.png" width="50" height="50" /></span>
               </Col>
               <Col md='4' className='text-center d-none d-md-block'>
                 <i className='fa fa-credit-card' />
-                <span>Payment Methods</span>
-              </Col>
+                <span>Payment Methods: <img src="/public/images/social-icons/cod.png" width="50" height="50" /> <img src="/public/images/social-icons/gcash2.png" width="50" height="30" /> <img src="/public/images/social-icons/PayMaya_Logo.png" width="50" height="30" /></span>
+              </Col >
               <Col md='4' className='text-center d-none d-md-block'>
                 <i className='fa fa-phone' />
-                <span>Call us 09152212673</span>
+                <span>Call us 09152212673 , Email us: ghostscentsperfumery@gmail.com</span>
               </Col>
               <Col xs='12' className='text-center d-block d-md-none'>
                 <i className='fa fa-phone' />
                 <span> Need advice? Call us 09152212673</span>
               </Col>
-            </Row>
-          </Container>
-        </div>
+            </Row >
+          </Container >
+        </div >
         <Container>
           <Row className='align-items-center top-header'>
             <Col
@@ -332,7 +332,7 @@ class Navigation extends React.PureComponent {
             onClick={toggleMenu}
           />
         </div>
-      </header>
+      </header >
     );
   }
 }
