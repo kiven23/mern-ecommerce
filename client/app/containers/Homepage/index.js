@@ -43,8 +43,8 @@ class Homepage extends React.PureComponent {
           </Col>
           <Col xs='12' lg='3' className='order-lg-2 mb-1 px-1 px-md-1'>
             <div className='d-flex flex-column h-70 justify-content-between'>
-              <img src='/images/banners/perfume/3.png' className='mb-1' />
-              <img src='/images/banners/perfume/4.png' />
+              <img src='/images/banners/perfume/7.png' className='mb-1' />
+              <img src='/images/banners/perfume/9.png' />
             </div>
 
           </Col>
