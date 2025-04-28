@@ -12,7 +12,7 @@
       "dest": "/config/public/$1"
     } 
   ],
-  "rewrites": [
-    { "src": "/(.*)", "dest": "/index.html" }
+ "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
