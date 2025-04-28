@@ -7,10 +7,7 @@
     }
   ],
   "routes": [
-    {
-      "src": "/public/(.*)",
-      "dest": "/config/public/$1"
-    } ,
+   
      {
       "src": "/(.*)",
       "dest": "/"
